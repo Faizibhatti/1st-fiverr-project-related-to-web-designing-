@@ -1,0 +1,142 @@
+.h2-margin
+{
+    color:gray;
+    font-size: 40px;
+}
+.h1-margin
+{
+    font-size: 35px;
+}
+.h3_margin
+{
+    color: dodgerblue;
+    font-size: 35px; 
+}
+.h3_margin2
+{
+    color: skyblue;
+    font-size: 39px; 
+}
+.h4_color
+{
+    color: deepskyblue;
+    font-size: 25px;
+    margin-left: 0px;
+}
+.img-width
+{
+    width: 120px;
+    height: 120px;
+}
+.secon-container
+{
+    margin-left: -5rem;
+}
+.img-margin
+{
+    margin-left: -42px;
+    margin-top: 1.5rem;
+    width: 250px;
+    height: 160px;
+}
+.first-img-heading
+{
+    color: grey;
+}
+.img-animation
+{
+    cursor: pointer;
+    z-index: 10;
+    transition: all .2s ease;
+    /* transform: scale(1); */
+
+}
+.img-animation:hover
+{
+    
+    transform: scale(1.05);
+    z-index: 20; 
+}
+.img2-heading-margin
+{
+    margin-top: -1rem;
+}
+.img2-heading2-margin
+{
+    margin-top: -.8rem;
+    margin-left: 2rem;
+}
+.img3-padding-top
+{
+    padding-top: 6rem;
+}
+@media screen and (max-width: 576px) {
+    
+    .center{
+     margin-left: 7rem;
+    }
+  }
+
+  @media (min-width:768px) and (max-width:992px)
+  {
+    .main-heading
+    {
+        font-size:25px;
+    }
+
+    .secondnd-heading
+    {
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width:768px) and (max-width:992px){
+
+
+    .img-margin {
+        margin-left: -70px;
+    
+    }
+    
+    .h1-margin {
+        font-size: 35px!important;
+    }
+    
+    .h2-margin {
+        font-size: 30px;
+    }
+    
+    .h3_margin {
+        font-size: 30px;
+    }
+    
+    
+    .h3_margin2 {
+        font-size: 30px;
+    }
+    }
+
+    @media screen and (max-width: 767px)
+    {
+        .first__heading
+        {
+           font-size: 31px !important;
+        }
+        .second-heading
+        {
+            font-size: 29px;
+        }
+        .third-heading
+        {
+            font-size: 23px;
+        }
+        .forth-heading
+        {
+            font-size: 25px;
+        }
+        .logo-heading
+        {
+            margin-left: -2.5rem;
+        }
+    }
+
